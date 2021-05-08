@@ -1,0 +1,162 @@
+.container h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color:#4AAAA5;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.container{
+    padding-top: 50px;
+}
+
+#test{
+    color:#FFFFFF;
+    background-color:#4AAAA5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size:25px;
+}
+
+#dropdown{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-item{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#landing_page_body{
+    background-color:#FFFFFF;
+}
+
+#main_header h1{
+    
+}
+
+.paragraph{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 2;
+    color:#8592A0;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.col-md-4{
+    padding-left:50px;
+}
+
+#landing_page_right{
+    border:none;
+}
+
+.card-header{
+    background-color: #FFFFFF;
+    border:none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #4AAAA5;
+    padding-top: 50px;
+}
+
+.column{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+/* vis specific */
+.paragraph img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#vis_text{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* ea specific */
+#maxtemp{
+    border:2px solid #4AAAA5;
+}
+
+#hum{
+    border:2px solid #4AAAA5;
+}
+
+#clouds{
+    border:2px solid #4AAAA5;
+}
+
+#windspeed{
+    border:2px solid #4AAAA5;
+}
+
+
+
+@media (max-width: 990px) {
+    .navbar-light.bg-light{
+        background-color:#4AAAA5 !important;
+    }
+
+    /* vis pages */
+    .visimage{
+        width: 384px;
+        height:256px;
+    }
+}
+
+@media (max-width:767px) {
+    /* image selection panel to horizontal */
+        /* #landing_page_body{
+        padding-bottom: 20px;
+    } */
+
+    /* .col-md-4.style{
+        padding-top: 20px;
+        width: 500px;
+    } */
+
+    #landing_page_right{
+        width:500px;
+        background-color: red;
+    }
+
+    /* .card{
+        width:500px;
+        background-color: red;
+    } */
+}
+
+@media (max-width:600px) {
+    .container{
+        padding-top: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    #container{
+        padding-top: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+}
+
+/* data page */
+.table{
+        margin-left: auto;
+        margin-right: auto;
+    }
